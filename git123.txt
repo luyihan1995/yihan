@@ -2,10 +2,10 @@ git clone ()
 
 git add .
 
-git config --global user.mail "ary60201@gmail.com"
+git config --global user.email "ary60201@gmail.com"
 
 
-git config --global user.name "account"
+git config --global user.name "luyihan1995"
 
 git commit -m "First commit"
 

@@ -28,59 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.b1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(32, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 70);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "18 UP";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("新細明體", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.ForeColor = System.Drawing.Color.Coral;
-            this.label1.Location = new System.Drawing.Point(26, 174);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(338, 35);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "choose you want enjoy";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("新細明體", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(24, 209);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(444, 48);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "please choose your age";
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.ForeColor = System.Drawing.Color.Blue;
-            this.button2.Location = new System.Drawing.Point(259, 292);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 66);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "18 down";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -112,18 +64,29 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "呂易翰";
             // 
+            // b1
+            // 
+            this.b1.BackColor = System.Drawing.SystemColors.Control;
+            this.b1.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.b1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.b1.Location = new System.Drawing.Point(68, 131);
+            this.b1.Name = "b1";
+            this.b1.Size = new System.Drawing.Size(190, 80);
+            this.b1.TabIndex = 10;
+            this.b1.Text = "按我";
+            this.b1.UseVisualStyleBackColor = false;
+            this.b1.Click += new System.EventHandler(this.b1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.b1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -132,14 +95,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button b1;
     }
 }
 

@@ -26,5 +26,10 @@ namespace N09310011
         {
 
         }
+
+        private void b1_Click(object sender, EventArgs e)
+        {
+            b1.Text = "你按痛人家了";
+        }
     }
 }
