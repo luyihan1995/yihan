@@ -2,9 +2,10 @@ C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\bin\Debug\N09310011.exe.config
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\bin\Debug\N09310011.exe
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\bin\Debug\N09310011.pdb
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.csproj.AssemblyReference.cache
-C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.Form1.resources
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.Properties.Resources.resources
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.csproj.GenerateResource.cache
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.csproj.CoreCompileInputs.cache
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.exe
 C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.pdb
+C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.b2.resources
+C:\Users\MEGAS\Desktop\yihan\N09310011\N09310011\obj\Debug\N09310011.你按到人家了.resources

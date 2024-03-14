@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace N09310011
 {
-    public partial class Form1 : Form
+    public partial class b2 : Form
     {
-        public Form1()
+        public b2()
         {
             InitializeComponent();
         }
@@ -29,7 +29,14 @@ namespace N09310011
 
         private void b1_Click(object sender, EventArgs e)
         {
-            b1.Text = "你按痛人家了";
+            // b1.Text = "你按痛人家了";
+            Form form = new 你按到人家了();
+            form.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace N09310011
 {
-    partial class Form1
+    partial class b2
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -69,7 +69,7 @@
             this.b1.BackColor = System.Drawing.SystemColors.Control;
             this.b1.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.b1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.b1.Location = new System.Drawing.Point(68, 131);
+            this.b1.Location = new System.Drawing.Point(127, 166);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(190, 80);
             this.b1.TabIndex = 10;
@@ -77,7 +77,7 @@
             this.b1.UseVisualStyleBackColor = false;
             this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
-            // Form1
+            // b2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -87,8 +87,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "b2";
+            this.Text = "按我";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
