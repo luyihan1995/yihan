@@ -51,6 +51,11 @@ namespace n09310011
             int sum = Int32.Parse(count) - 1;
             label2.Text = sum.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
