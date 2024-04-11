@@ -33,5 +33,26 @@ namespace n09310011
             int b = Int32.Parse(textBox2.Text);
             label3.Text = (a + b).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a = Int32.Parse(textBox3.Text);
+            int b = Int32.Parse(textBox4.Text);
+            label10.Text = (a - b).ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = Int32.Parse(textBox5.Text);
+            int b = Int32.Parse(textBox6.Text);
+            label11.Text = (a * b).ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = Int32.Parse(textBox7.Text);
+            int b = Int32.Parse(textBox8.Text);
+            label12.Text = (a / b).ToString();
+        }
     }
 }
