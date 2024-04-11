@@ -56,6 +56,12 @@ namespace n09310011
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new Form2();
+            form.Show();
+        }
     }
     
 }
