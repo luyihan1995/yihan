@@ -17,6 +17,11 @@ namespace n09310011
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            int c = 36;
+            int temp1 = 9 / 5;
+            int result = c * temp1 + 32;
+            Console.WriteLine();
         }
     }
 }
