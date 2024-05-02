@@ -11,3 +11,4 @@ C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.pdb
 C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.Form2.resources
 C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.FormTextBox.resources
 C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.Form3.resources
+C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.FormTimer.resources

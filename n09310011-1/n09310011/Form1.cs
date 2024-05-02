@@ -68,6 +68,12 @@ namespace n09310011
             Form form = new Form3();
             form.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form form = new FormTimer();
+            form.Show();
+        }
     }
     
 }
