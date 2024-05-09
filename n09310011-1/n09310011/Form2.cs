@@ -50,8 +50,8 @@ namespace n09310011
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int a = Int32.Parse(textBox7.Text);
-            int b = Int32.Parse(textBox8.Text);
+            double a = int.Parse(textBox7.Text);
+            double b = int.Parse(textBox8.Text);
             label12.Text = (a / b).ToString();
         }
     }

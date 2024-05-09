@@ -12,17 +12,34 @@ namespace n09310011
 {
     public partial class FormTimer : Form
     {
-        int second;
+        public int second;
         public FormTimer()
         {
             InitializeComponent();
-            this.second = 0;
+            second = 0;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            label1.Text = String.Format("{0}秒", this.second);
-            this.second++;
+            label1.Text = String.Format("{0}秒", second);
+            second++;
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            second=0;
+            label1.Text = String.Format("{0}秒", second);
+            
         }
     }
 }
