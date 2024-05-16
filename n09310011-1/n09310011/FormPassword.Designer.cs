@@ -53,6 +53,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "猜!";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -62,6 +63,7 @@
             this.label1.Size = new System.Drawing.Size(194, 12);
             this.label1.TabIndex = 2;
             this.label1.Text = "以隨機產生0~100數字,請在下方作答";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -71,6 +73,7 @@
             this.label2.Size = new System.Drawing.Size(33, 12);
             this.label2.TabIndex = 3;
             this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
