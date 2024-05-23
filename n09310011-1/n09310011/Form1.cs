@@ -80,6 +80,13 @@ namespace n09310011
             Form form = new FormPassword();
             form.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form form = new FormCheckBox();
+            form.Show();
+        }
     }
+    
     
 }

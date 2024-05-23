@@ -13,3 +13,4 @@ C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.FormTextB
 C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.Form3.resources
 C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.FormTimer.resources
 C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.FormPassword.resources
+C:\Users\MEGAS\Desktop\yihan\n09310011-1\n09310011\obj\Debug\n09310011.FormCheckBox.resources
