@@ -86,6 +86,12 @@ namespace n09310011
             Form form = new FormCheckBox();
             form.Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form form = new Finalform();
+            form.Show();
+        }
     }
     
     
