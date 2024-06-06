@@ -19,6 +19,7 @@ namespace n09310011
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string main="", drinking = "";
             foreach (Control c in panel1.Controls)
             {
                 if (c is CheckBox)
@@ -26,7 +27,8 @@ namespace n09310011
                     CheckBox chk = (CheckBox)c;
                     if (chk.Checked)
                     {
-                        MessageBox.Show (chk.Text);
+                        main+=chk.Text+",";
+                        //MessageBox.Show (chk.Text);
                     }
                 }
             }
@@ -37,10 +39,14 @@ namespace n09310011
                     CheckBox chk = (CheckBox)c;
                     if (chk.Checked)
                     {
-                        MessageBox.Show(chk.Text);
+                        drinking+=chk.Text+",";
+                        //MessageBox.Show(chk.Text);
                     }
                 }
             }
+            main=main.Remove(main.Length-1, 1);
+            drinking=drinking.Remove(drinking.Length-1, 1);
+            MessageBox.Show("主餐:"+main+" \n飲料:"+drinking);
         }
     }
  }
